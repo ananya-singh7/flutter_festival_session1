@@ -21,8 +21,6 @@ void main()
    
    int subtractNum(int n1, int n2) => (n1-n2);
       
-       
    int multiplyNum(int n1,int n2) => (n1*n2);
   
-   
    double divideNum(int n1, int n2) => (n1/n2);
