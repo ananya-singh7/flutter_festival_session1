@@ -1,7 +1,9 @@
+import 'dart:io'; 
+  
 void main()
    {
-       int num1 = 10;
-       int num2 = 5;
+       int num1 = int.parse(stdin.readLineSync());
+       int num2 = int.parse(stdin.readLineSync());
        
        int a = addNum(num1, num2);
        int s = subtractNum(num1, num2);
@@ -23,5 +25,4 @@ void main()
    int multiplyNum(int n1,int n2) => (n1*n2);
   
    
-   double divideNum(int n1, int n2) => (n1/n2); 
-     
+   double divideNum(int n1, int n2) => (n1/n2);
