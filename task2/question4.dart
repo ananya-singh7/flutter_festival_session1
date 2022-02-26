@@ -12,11 +12,13 @@ void main()
   
   int num = int.parse(stdin.readLineSync());
   
+  // here we are printing the character corresponding to the number inputted by the user or a message if the input is wrong.
   if(num>=1 && num<=26)
      print("$num: ${map[num]}");
   else
      print("Wrong Input: Enter a number between 1-26.");
      
+  // here we are also printing the complete list for reference to demonstrate the working of both the concepts.
   print("");
   print("The Complete List - ");
   
